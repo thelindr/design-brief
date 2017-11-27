@@ -16,12 +16,57 @@ h2 {
   line-height: 12px;
 }
 
+h3 {
+  font-family: 'Lucida Grande', serif;
+  font-size: 12px;
+  line-height: 12px;
+}
+
 .App {
   margin: 0 220px 0 220px;
 }
 
+button {
+ background-color: black;
+ border: none;
+ color: white;
+ padding: 9px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 14px;
+ font-weight: lighter;
+ margin: 4px 2px;
+ cursor: pointer;
+ letter-spacing: 1px;
+}
+
 .Menu {
   height: 75px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#menubutton {
+  background-color: #03a87c;
+  padding: 6px 16px;
+}
+
+#bold {
+  font-weight: bold;
 }
 
 .Header {
@@ -29,6 +74,9 @@ h2 {
   background-image: url(/images/medium-image.png);
   background-repeat: no-repeat;
   background-position: right;
+  background-size: 40%;
+  border-style: groove;
+  border-width: thin;
 }
 
 .Header p {
@@ -41,6 +89,14 @@ h2 {
 
 .buttons {
   padding-top: 40px;
+}
+
+#secondbutton {
+  margin-left: 20px;
+  background-color: white;
+  border-style: groove;
+  border-width: thin;
+  color: black;
 }
 
 .contentBoxes {
@@ -56,6 +112,9 @@ h2 {
   border-style: groove;
   border-width: thin;
   margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .textbox {
@@ -67,13 +126,22 @@ h2 {
   background-color: white;
 }
 
+.byline {
+  width: 256px;
+  height: 40px;
+}
+
 .firstBox {
   background-image: url(/images/medium-image-puff-1.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -60% 0;
   z-index: 0;
-  overflow: hidden;
+}
+
+.firstBox img {
+  width: 20%;
+  border-radius: 50%;
 }
 
 .secondBox {
