@@ -40,26 +40,50 @@ class App extends React.Component {
                   <p>At 5:30 am, on any motning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
                     <div className="byline">
                     <img src="/images/writer-1.png"></img>
+                    <div className="bylinetext">
                       <h3>Carl Moore</h3>
+                        <p>Date</p>
+                        </div>
                       </div>
                     </div>
                 </div>
                 <div id="box" className="secondBox">
                     <div className="textbox">
-                      <h2>The role of human emotions...</h2>
-                      <p>Lorem ipsum....</p>
+                      <h2>The Role of Human Emotions in the Future of Transport</h2>
+                      <p>Getting from A to B is about to feel very different</p>
+                      <div className="byline">
+                      <img src="/images/writer-2.jpeg"></img>
+                      <div className="bylinetext">
+                        <h3>Carl Moore</h3>
+                          <p>Date</p>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div id="box" className="thirdBox">
                     <div className="textbox">
-                      <h2>The Boy Who Tamed the Sea</h2>
-                      <p>Lorem ipsum....</p>
+                      <h2>The Burning Season</h2>
+                      <p>You can not save everything when the fires come to Northern California</p>
+                      <div className="byline">
+                      <img src="/images/writer-3.jpeg"></img>
+                      <div className="bylinetext">
+                        <h3>Carl Moore</h3>
+                          <p>Date</p>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div id="box" className="fourthBox">
                     <div className="textbox">
                       <h2>The Boy Who Tamed the Sea</h2>
-                      <p>Lorem ipsum....</p>
+                      <p>You can not save everything when the fires come to Northern California</p>
+                      <div className="byline">
+                      <img src="/images/writer-4.jpeg"></img>
+                      <div className="bylinetext">
+                        <h3>Carl Moore</h3>
+                          <p>Date</p>
+                          </div>
+                        </div>
                     </div>
                 </div>
               </div>

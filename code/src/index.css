@@ -13,17 +13,19 @@ h1 {
 h2 {
   font-family: 'Lucida Grande', serif;
   font-size: 16px;
-  line-height: 12px;
+  line-height: 16px;
 }
 
 h3 {
   font-family: 'Lucida Grande', serif;
   font-size: 12px;
   line-height: 12px;
+  align-self: center;
+  margin: 0;
 }
 
 .App {
-  margin: 0 220px 0 220px;
+  margin: 0 220px 50px 220px;
 }
 
 button {
@@ -81,6 +83,7 @@ li {
 
 .Header p {
   padding-top: 25px;
+  letter-spacing: 1px;
 }
 
 .leftColumn {
@@ -124,11 +127,16 @@ li {
   float: right;
   z-index: 2;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .byline {
   width: 256px;
-  height: 40px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
 }
 
 .firstBox {
@@ -139,11 +147,22 @@ li {
   z-index: 0;
 }
 
-.firstBox img {
+.byline img {
   width: 20%;
   border-radius: 50%;
 }
 
+.bylinetext {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 5px;
+}
+
+.bylinetext p {
+  margin: 0;
+  font-size: 12px;
+}
 .secondBox {
   background-image: url(/images/medium-image-puff-2.png);
   background-size: contain;
